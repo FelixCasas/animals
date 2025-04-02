@@ -7,7 +7,7 @@ import AnimalsShow from "./AnimalsShow"
 function getRandomAnimal(){
   const animals = ['cat', 'bird', 'dog', 'gator', 'horse']
 
-  return animals[Math.floor(Math.random() = animals.length)]
+  return animals[Math.floor(Math.random() * animals.length)]
 }
 
 console.log(getRandomAnimal())
